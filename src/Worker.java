@@ -6,4 +6,6 @@ public class Worker {
   int bonus;
   boolean isManager;
   Set<Integer> skills;
+
+
 }

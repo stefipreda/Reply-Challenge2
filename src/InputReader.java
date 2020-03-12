@@ -8,7 +8,7 @@ public class InputReader {
     static Input read() throws FileNotFoundException {
 
         Input input = new Input();
-        FileInputStream fis = new FileInputStream("C:\\Users\\Stefi\\Downloads\\Reply-Challenge\\.idea\\b_dream");
+        FileInputStream fis = new FileInputStream("C:\\Users\\Zoli\\Documents\\Zoli\\Reply\\2020\\a_solar.txt");
         Scanner sc = new Scanner(fis);    //file to be scanned
         //returns true if there is another line to read
         input.m = sc.nextInt();
